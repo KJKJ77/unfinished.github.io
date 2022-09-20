@@ -1,0 +1,150 @@
+body{
+    min-height: 100vh;
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(249, 250, 254);
+}
+.bande{
+    display: flex;
+    width: 732px;
+    height: 837px;
+    font-size: 16px;
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 14px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    box-shadow: -4px -4px 20px hsl(205, 33%, 90%);
+    
+}
+.gras{
+    font-weight: 800;
+}
+.gras2{
+    font-weight: 800;
+    color: hsl(219, 12%, 42%);
+}
+.notif{
+    font-size: 19px;
+}
+.three{
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 8px;
+    color:hsl(0, 0%, 100%) ;
+    background-color: hsl(219, 85%, 26%);
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top:2px ;
+    padding-bottom:2px ;
+}
+.mark{
+    font-size: 16px;
+    color: hsl(219, 14%, 63%);
+    font-weight: 500;
+}
+.pt{
+    color: rgb(146, 149, 151);
+}
+.chess{
+    color:hsl(219, 85%, 26%);
+    font-weight: 800;
+}
+
+.times{
+    color:rgb(160, 170, 173)
+}
+.avatar{
+    width: 45px;
+    height: 45px;
+    border-radius:50% ;
+}
+.sstnote{
+    display:flex;
+    align-items:flex-end;
+    margin-left:50px ;
+    background-color: rgb(246, 250, 253);
+    padding-top: 12px;
+    padding-bottom: 17px;
+    padding-left:17px ;
+    padding-right:17px ;
+    border-radius: 8px;
+}
+
+.nndnote{
+    display:flex;
+    align-items:flex-end;
+    margin-left:50px ;
+    background-color: rgb(246, 250, 253);
+    padding-top: 12px;
+    padding-bottom: 17px;
+    padding-left:17px ;
+    padding-right:357px ;
+    border-radius: 8px;
+}
+.rrdnote{
+    display:flex;
+    align-items:flex-end;
+    margin-left:50px ;
+    background-color: rgb(246, 250, 253);
+    padding-top: 12px;
+    padding-bottom: 17px;
+    padding-left:17px ;
+    padding-right:160px ;
+    border-radius: 8px;
+}
+.ffourthnote{
+    display:flex;
+    margin-left:65px ;
+}
+.ffifthnote{
+    display:flex;
+    align-items:flex-end;
+    margin-left:65px ;
+}
+.fifthnote{
+    width: 510px;
+}
+.ssixthnote{
+    display:flex;
+    width: 650px;
+    margin-left:65px ;
+}
+.sseventhnote{
+    display:flex;
+    margin-left:65px ;
+    align-items:flex-end;
+}
+.chess-img{
+    width: 45px;
+    height: 45px;
+    display: inline;
+}
+.first-line{
+    padding-left:35px;
+}
+.helo{
+    display: flex;
+    width: 550px;
+    color: rgb(146, 149, 151);
+    border-top: 1px solid rgb(146, 149, 151);
+    border-right: 1px solid rgb(146, 149, 151);
+    border-bottom: 1px solid rgb(146, 149, 151);
+    border-left: 1px solid rgb(146, 149, 151);
+    padding-left:15px;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+
+.dot{
+    display: inline-block;
+    background-color: red;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    margin-left: 5px;
+}
